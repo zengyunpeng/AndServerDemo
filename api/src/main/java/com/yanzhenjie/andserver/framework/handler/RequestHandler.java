@@ -56,5 +56,5 @@ public interface RequestHandler {
      *
      * @return the impression sent to the client.
      */
-    View handle(@NonNull HttpRequest request, @NonNull HttpResponse response) throws IOException;
+    View handle(@NonNull HttpRequest request, @NonNull HttpResponse response) throws Exception;
 }
